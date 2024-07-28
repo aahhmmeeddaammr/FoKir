@@ -47,34 +47,43 @@ body{
 .home .txt span ,.home .txt h1 ,.home .txt p{
      width: 100%;
 }
+.home .txt{
+     font-size: 20px;
+}
 .home .txt h1{
      color: #ff305b;
      margin: 10px 0;
 }
-/* .home .nav .txt span{
-     content: "";
-     animation: typing 3s steps(30 end) forwards;
+#xx::after{
+     content: "D|";
+     animation-name: typing;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-direction: normal;
 }
 @keyframes typing {
-     from{width:0}
-     from{width:100%}
-     0%{content: "D|"};
-     6%{content: "De|"};
-     12%{content: "Des|"};
-     18%{content: "Desi|"};
-     24%{content: "Desig|"};
-     30%{content: "Design|"};
-     36%{content: "Designe|"};
-     42%{content: "Designer|"};
-     48%{content: "Designe|"};
-     54%{content: "Design|"};
-     60%{content: "Desig|"};
-     66%{content: "Desi|"};
-     72%{content: "Des|"};
-     78%{content: "De|"};
-     84%{content: "D|"};
-
-} */
+     0%{content: "D|"}
+     4%{content: "De|"}
+     8%{content: "Des|"}
+     12%{content: "Desi|"}
+     16%{content: "Desig|"}
+     20%{content: "Design|"}
+     24%{content: "Designe|"}
+     28%{content: "Designer|"}
+     32%{content: "Designe|"}
+     36%{content: "Design|"}
+     40%{content: "Desig|"}
+     44%{content: "Desi|"}
+     52%{content: "De|"}
+     48%{content: "Des|"}
+     56%{content: "Dev|"}
+     60%{content: "Deve|"}
+     64%{content: "Devel|"}
+     68%{content: "Develo|"}
+     72%{content: "Develop|"}
+     76%{content: "Develope|"}
+     80%{content: "Developer|"}
+}
 .home .counter{
      margin: 0;
      padding: 0 60px 0 0;
